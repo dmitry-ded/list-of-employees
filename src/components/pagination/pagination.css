@@ -1,0 +1,25 @@
+.pagination-block {
+  li {
+    display: inline-flex;
+    padding-bottom: .5rem;
+
+    a {
+      text-align: center;
+      line-height: 42px;
+      width: 45px;
+      height: 45px;
+      border: 1px solid rgb(134, 151, 125);
+      border-radius: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+      color: rgb(134, 151, 125);
+
+      &:hover {
+        background-color: rgb(134, 151, 125);
+        color: #fff;
+  
+      }
+      
+    }
+  }
+}

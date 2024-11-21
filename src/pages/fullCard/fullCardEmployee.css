@@ -1,0 +1,43 @@
+.main-full-card {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+
+}
+
+.descriptions-employee-full-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: .5rem;
+  width: 80%;
+  background-color: rgba(240, 240, 240, 0.613);
+}
+
+.info-full-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-full-card-img{
+  width: 400px;
+}
+
+.info-full-card h2{
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.info-name-card {
+  display: flex;
+  gap: .5rem;
+}
+
+.departament-post-block {
+  display: flex;
+  gap: 1rem;
+}
+
+.date-of-birth {
+  display: flex;
+}

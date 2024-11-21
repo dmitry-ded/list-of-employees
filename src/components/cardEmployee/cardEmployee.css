@@ -1,0 +1,37 @@
+.main-card-employee {
+  display: flex;
+  background-color: rgba(168, 180, 162, 0.79);
+  border-radius: 10px;
+  padding: .5rem;
+}
+
+.description-card-employee {
+  display: flex;
+  gap: 1rem;
+}
+.full-name-block {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.info-about-employee {
+  display: flex;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+.full-name-block h2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.departament-block {
+  display: flex;
+  flex-direction: column;
+  width: 130px;
+}
+
+.description-card-employee span {
+  font-size: 17px;
+}

@@ -1,0 +1,37 @@
+.main-home {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.block-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 90%;
+  border-radius: 10px;
+  padding: 1rem;
+
+}
+
+.main-block-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(240, 240, 240, 0.613);
+  border-radius: 10px;
+  align-items: center;
+  width: 90%;
+
+}
+
+@media (max-width: 1535px) {
+  .block-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 920px) {
+  .block-card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
